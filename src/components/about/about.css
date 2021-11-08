@@ -1,0 +1,37 @@
+.about-container{
+    height: 500px;
+    width: 80%;
+    border:1px solid grey;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 25px;
+    margin:auto ;
+    margin-top: 50px;
+    background-color: white;
+}
+.about-title{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(43, 43, 128);
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.about-line{
+    height: 8px;
+    width: 150px;
+    background-color: rgb(252, 167, 56);
+    margin-left: 15px;
+}
+.inside-skill-div{
+    margin-left: 25px;
+    height: 300px;
+    width: 95%;
+    border:1px solid grey;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 25px;   
+}
+.image-style{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}

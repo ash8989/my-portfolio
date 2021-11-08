@@ -1,0 +1,38 @@
+.flex1{
+    display: flex;
+    /* margin-left: 10px; */
+    height: 700px;
+    width: 100%;
+    border: 1px solid white;
+    background-color: rgb(4, 102, 105);
+
+}
+.home-content{
+    margin-top:270px;
+    /* font-size: 30px; */
+    font-weight: bolder;
+    color:rgb(252, 167, 56);
+    margin-left: 80px;
+}
+.second-paragragh{
+    color: white;
+    font-size: 30px;
+    margin-left: 80px;
+}
+
+.buttonClass1{
+    background-color:turquoise;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    color: white;
+    margin-left: 80px;
+
+}
+.buttonClass2{
+    background-color:rgb(252, 167, 56);
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    color: white;
+}

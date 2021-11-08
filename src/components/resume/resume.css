@@ -1,0 +1,59 @@
+.resume-container{
+    height: 700px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid grey;
+    background-color: #f7f7f7;
+    border-radius: 25px;
+}
+.resume-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(43, 43, 128);
+    margin-top: 10px;
+}
+.resume-underline{
+    height: 8px;
+    width: 130px;
+    background-color: rgb(252, 167, 56);
+    margin:auto;
+}
+
+.flex3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.firstBox{
+    height: 600px;
+    width: 45%;
+    border: 1px solid grey;
+    border-radius: 15px;
+}
+.secondBox{
+    height: 600px;
+    width: 45%;
+    border: 1px solid grey;
+    border-radius: 15px;
+    background-color: white;
+
+}
+.education{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: rgb(43, 43, 128);
+
+}
+.education-underline{
+    height: 2px;
+    width: 475px;
+    background-color: rgb(150, 139, 139);
+    margin-left: 10px;
+}
