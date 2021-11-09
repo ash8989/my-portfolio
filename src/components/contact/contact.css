@@ -1,0 +1,83 @@
+.contact-container{
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px grey;
+    background-color: #f7f7f7;
+    border-radius: 25px;
+}
+
+.contact-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(43, 43, 128);
+    margin-top: 10px;
+}
+.contact-underline{
+    height: 8px;
+    width: 130px;
+    background-color: rgb(252, 167, 56);
+    margin:auto;
+}
+.contactFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.contactFirstBox{
+    height: 400px;
+    width: 50%;
+    border: 1px grey;
+    border-radius: 15px;
+    background-color: white;
+}
+.contactSecondBox{
+    height: 400px;
+    width: 50%;
+    border: 1px grey;
+    border-radius: 15px;
+    background-color: #fbf3e4;
+}
+.letConnectFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin-left: 100px;
+}
+.letConnectClass{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(26, 80, 21);
+}
+
+.messageFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin-left: 30px;
+}
+.messageClass{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(26, 80, 21);
+}
+.formClass{
+    margin-top: 10px;
+}
+.submitForm{
+    height: 40px;
+    width: 170px;
+    border: 1px white;
+    border-radius: 25px;
+    background-color: rgb(252, 167, 56);
+    cursor: pointer;
+}

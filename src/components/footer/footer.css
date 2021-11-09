@@ -1,0 +1,11 @@
+.footerDiv{
+    height:60px;
+    width: 100%;
+    border: 1px  grey;
+    background-color: #fbf3e4;
+}
+.style-footer{
+    text-align: center;
+    font-size: 15px;
+    color: grey;
+}

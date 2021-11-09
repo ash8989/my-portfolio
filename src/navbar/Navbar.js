@@ -1,21 +1,46 @@
 import { Component } from "react";
 import "./navbar.css";
+import { Routes,Route, Link } from "react-router-dom";
+import Home from "../components/home/Home";
+import About from "../components/about/About";
+import Portfolio from "../components/portfolio/portfolio";
+import Resume from "../components/resume/resume";
+import Contact from "../components/contact/contact";
 
 class Navbar extends Component {
   render() {
     return (
-      <nav className="nav">
-        <div className="container flex items-center justify-between">
-          <h2>Ashish Sharma</h2>
-          <div className="navbar flex items-center justify-end">
-            <p className="home">Home &nbsp;&nbsp;&nbsp; </p>
-            <p className="about">About &nbsp;&nbsp;&nbsp;&nbsp;</p>
-            <p className="portfolio">Portfolio &nbsp;&nbsp;&nbsp;&nbsp;</p>
-            <p className="resume">Resume &nbsp;&nbsp;&nbsp;&nbsp;</p>
-            <p className="contact">Contact</p>
+      <div>
+        <nav className="nav">
+          <div className="container flex items-center justify-between">
+            <h2>Ashish Sharma</h2>
+            <div className="navbar flex items-center justify-end">
+              <Link to="/" className="home">Home &nbsp;&nbsp;&nbsp; </Link>
+              <Link to="/about" className="about" >About &nbsp;&nbsp;&nbsp;&nbsp;</Link>
+              <Link to="/portfolio" className="portfolio">Portfolio &nbsp;&nbsp;&nbsp;&nbsp;</Link>
+              <Link to="/resume"className="resume" >Resume &nbsp;&nbsp;&nbsp;&nbsp;</Link>
+              <Link to="/contact" className="contact" >Contact</Link>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+
+        <Routes>
+          <Route path="/" element={<Home />}>
+          </Route>
+
+          <Route path="/about" element={<About />}>
+          </Route>
+
+          <Route path="/portfolio" element={<Portfolio />}>
+          </Route>
+
+          <Route path="/resume" element={<Resume />}>
+          </Route>
+
+          <Route path="/contact" element={<Contact />}>
+          </Route>
+        </Routes>
+      </div>
     );
   }
 }
