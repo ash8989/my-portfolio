@@ -5,7 +5,7 @@
     box-shadow: 2px 2px 5px grey;
     border-radius: 25px;
     margin:auto ;
-    margin-top: 50px;
+    margin-top: 80px;
     background-color: white;
 }
 .about-title{
@@ -34,4 +34,21 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
+
+@media screen and (min-width:300px) and (max-width:500px) {
+	.about-container{
+        width: 70%;
+        margin-left: 20px;
+        margin-top: 50px;
+        height: 780px;
+    }
+    .inside-skill-div{
+        margin-left:5px ;
+        height: 370px;
+    }
+    h2{
+        font-size: 16px;
+        margin-left: 5px;
+    }
 }

@@ -22,17 +22,17 @@ export default class Contact extends Component {
               </p>
               <div>
                 <div>
-                  <i class="fas fa-at"></i>&nbsp;&nbsp;
+                  <i className="fas fa-at"></i>&nbsp;&nbsp;
                   <span style={{ color: "grey" }}>as2224900@gmail.com</span>
                 </div>
                 <br />
                 <div>
-                  <i class="fas fa-phone-alt"></i>&nbsp;&nbsp;
+                  <i className="fas fa-phone-alt"></i>&nbsp;&nbsp;
                   <span style={{ color: "grey" }}>7987484748</span>
                 </div>
                 <br />
                 <div>
-                  <i class="far fa-envelope"></i>&nbsp;&nbsp;
+                  <i className="far fa-envelope"></i>&nbsp;&nbsp;
                   <span style={{ color: "grey" }}>7987484748</span>
                 </div>
               </div>
@@ -44,20 +44,20 @@ export default class Contact extends Component {
               <form className="formClass">
                   <label>Name :</label>
                   <br/>
-                  <input type="text" id="name" value="" style={{width:"450px", height:"20px"}} required/>
+                  <input type="text" id="name"  style={{width:"450px", height:"20px"}} required/>
                   <br/><br/>
 
                   <label>PhoneNo. :</label>
                   <br/>
-                  <input type="number" id="number" value="" style={{width:"450px", height:"20px"}}  required/>
+                  <input type="number" id="number" style={{width:"450px", height:"20px"}}  required/>
                   <br/><br/>
 
                   <label>Email :</label><br/>
-                  <input type="email" id="email" value="" style={{width:"450px", height:"20px"}}  required/>
+                  <input type="email" id="email" style={{width:"450px", height:"20px"}}  required/>
                   <br/><br/>
 
                   <label>Message :</label><br/>
-                  <input type="text" id="message" value="" style={{width:"450px", height:"20px"}}  required/>
+                  <input type="text" id="message" style={{width:"450px", height:"20px"}}  required/>
                   <br/><br/>
 
                   <div><button type="submit" className="submitForm">Send Message</button></div>

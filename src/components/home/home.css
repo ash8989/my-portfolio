@@ -1,6 +1,7 @@
 .flex1{
     display: flex;
     /* margin-left: 10px; */
+    margin-top: 70px;
     height: 700px;
     width: 100%;
     border: 1px solid white;
@@ -8,8 +9,8 @@
 
 }
 .home-content{
-    margin-top:270px;
-    /* font-size: 30px; */
+    margin-top:200px;
+    font-size: 40px;
     font-weight: bolder;
     color:rgb(252, 167, 56);
     margin-left: 80px;
@@ -17,6 +18,11 @@
 .second-paragragh{
     color: white;
     font-size: 30px;
+    margin-left: 80px;
+}
+.getReady{
+    color: white;
+    font-size: 25px;
     margin-left: 80px;
 }
 
@@ -35,4 +41,27 @@
     width: 120px;
     border-radius: 10px;
     color: white;
+}
+
+@media screen and (min-width:300px) and (max-width:500px) {
+	.home-content{
+        font-size: 25px;
+        margin-left: 10px;
+        margin-top: 100px;
+
+    }
+    .second-paragragh{
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    .getReady{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .buttonClass1{
+        margin-left: 10px;
+    }
+    .flex1{
+        height: 400px;
+    }
 }

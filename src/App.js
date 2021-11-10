@@ -14,6 +14,7 @@ function App() {
     <BrowserRouter className="App">
     
       <Navbar />
+      {/* <Home /> */}
       <About />
       <Portfolio />
       <Resume />

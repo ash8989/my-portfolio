@@ -6,10 +6,10 @@ class Home extends Component {
     return (
       <div className="flex1">
         <div>
-          <h1 className="home-content">Hi, I am Ashish Sharma</h1>
+          <div className="home-content">Hi, I am Ashish Sharma</div>
           <p className="second-paragragh">A front-end Developer</p>
           
-          <p style={{ color: "white", fontSize: "20px", marginLeft: "80px" }}>
+          <p className="getReady">
             Get ready to turn ideas into reality.
           </p>
           <div>

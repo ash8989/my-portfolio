@@ -1,6 +1,6 @@
 import { Component } from "react";
 import "./navbar.css";
-import { Routes,Route, Link } from "react-router-dom";
+import { Routes,Route, Link} from "react-router-dom";
 import Home from "../components/home/Home";
 import About from "../components/about/About";
 import Portfolio from "../components/portfolio/portfolio";
@@ -13,8 +13,8 @@ class Navbar extends Component {
       <div>
         <nav className="nav">
           <div className="container flex items-center justify-between">
-            <h2>Ashish Sharma</h2>
-            <div className="navbar flex items-center justify-end">
+            <div className="name-div">Ashish Sharma</div>
+            <div className="navbar flex items-center justify-end display-none">
               <Link to="/" className="home">Home &nbsp;&nbsp;&nbsp; </Link>
               <Link to="/about" className="about" >About &nbsp;&nbsp;&nbsp;&nbsp;</Link>
               <Link to="/portfolio" className="portfolio">Portfolio &nbsp;&nbsp;&nbsp;&nbsp;</Link>
@@ -25,7 +25,7 @@ class Navbar extends Component {
         </nav>
 
         <Routes>
-          <Route path="/" element={<Home />}>
+          <Route path="/" exact={true} element={<Home />}>
           </Route>
 
           <Route path="/about" element={<About />}>

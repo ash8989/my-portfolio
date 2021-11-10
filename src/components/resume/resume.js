@@ -85,9 +85,9 @@ export default class Resume extends Component {
                 <img src={resumeImage1} alt={resumeImage1} className="resumeImageClass"></img>
             </div>
             <div className="thirdBox">
-                <a href="https://www.linkedin.com/in/ashish-sharma-a23228198" className="fontAwesome"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/ash8989" className="fontAwesome"><i class="fab fa-github"></i></a>
-                <a href="https://skype.com" className="fontAwesome"><i class="fab fa-skype"></i></a>
+                <a href="https://www.linkedin.com/in/ashish-sharma-a23228198" className="fontAwesome"><i className="fab fa-linkedin"></i></a>
+                <a href="https://github.com/ash8989" className="fontAwesome"><i className="fab fa-github"></i></a>
+                <a href="https://skype.com" className="fontAwesome"><i className="fab fa-skype"></i></a>
             </div>
           </div>
 
