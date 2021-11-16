@@ -3,7 +3,7 @@
     width: 80%;
     margin: auto;
     margin-top: 80px;
-    border: 1px grey;
+    border: 1px  grey;
     background-color: #f7f7f7;
     border-radius: 25px;
 
@@ -33,7 +33,7 @@
 .firstBox{
     height: 600px;
     width: 60%;
-    border: 1px  grey;
+    border: 1px solid grey;
     border-radius: 15px;
 }
 .parent-second-third{
@@ -195,4 +195,48 @@
     border-radius: 50%;
     margin-top: 50px;
     margin-left: 50px;
+}
+
+@media screen and (min-width:300px) and (max-width:500px) {
+
+    .resume-container{
+        height: 1320px;
+        width: 170%;
+        margin-left: 28px;
+    }
+
+    .flex3{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .firstBox{
+        height: 600px;
+        width: 95%;
+        border: 1px grey;
+        border-radius: 15px;
+    }
+
+    .education-underline{
+        width: 550px;
+    }
+	.project-underline{
+        width: 550px;
+    }
+    .skill-underline{
+        width: 550px;
+    }
+
+    .secondBox{
+        width: 500px;
+    }
+    .thirdBox{
+        width: 500px;
+    }
+    .resumeImageClass{
+        margin-left: 95px;
+    }
+
+
 }

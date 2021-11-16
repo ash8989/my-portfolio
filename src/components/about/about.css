@@ -38,17 +38,17 @@
 
 @media screen and (min-width:300px) and (max-width:500px) {
 	.about-container{
-        width: 70%;
-        margin-left: 20px;
+        width: 170%;
+        margin-left: 28px;
         margin-top: 50px;
-        height: 780px;
+        height: 450px;
     }
     .inside-skill-div{
-        margin-left:5px ;
-        height: 370px;
+        margin-left:15px ;
+        height: 200px;
     }
     h2{
-        font-size: 16px;
+        font-size: 20px;
         margin-left: 5px;
     }
 }

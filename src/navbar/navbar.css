@@ -87,13 +87,13 @@
 
 @media screen and (min-width:300px) and (max-width:500px) {
 	.nav{
-		width: 54%;
+		width: 100%;
 		position: fixed;
 		top: 0;
 	}
 	
 	.name-div{
-		font-size: 20px;
+		font-size: 30px;
 	}
 
 	.display-none{

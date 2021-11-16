@@ -3,7 +3,7 @@
     width: 80%;
     margin: auto;
     margin-top: 80px;
-    border: 1px grey;
+    border: 1px solid black;
     background-color: #f7f7f7;
     border-radius: 25px;
 }
@@ -80,4 +80,28 @@
     border-radius: 25px;
     background-color: rgb(252, 167, 56);
     cursor: pointer;
+}
+
+
+@media screen and (min-width:300px) and (max-width:500px) {
+
+    .contact-container{
+        height: 900px;
+        width: 170%;
+        margin-left: 28px;
+    }
+
+    .contactFlex{
+        display: flex;
+        flex-direction: column;
+    }
+	
+    .contactFirstBox{
+        height: 400px;
+        width: 90%;
+    }
+    .contactSecondBox{
+        height: 400px;
+        width: 90%;
+    }
 }
